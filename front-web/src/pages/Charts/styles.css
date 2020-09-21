@@ -70,3 +70,30 @@
   background-color: var(--color-dimgray);
   border-radius: 10px;
 }
+
+@media (max-width: 850px) {
+  .chart-container {
+    display: grid;
+    margin-right: 50px;
+  }
+
+  .charts {
+    margin-top: 50px;
+  }
+
+  .filters-container {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-image {
+    display: none;
+  }
+
+  .home-text {
+    margin-right: 0;
+    text-align: center;
+    padding: 0 10px;
+  }
+}

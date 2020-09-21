@@ -103,3 +103,25 @@
 .filters-container .action-filters:hover {
   background-color: #04c7ef;
 }
+
+@media (max-width: 850px) {
+  .page-container {
+    margin-top: 50px;
+  }
+
+  .filters-container {
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-image {
+    display: none;
+  }
+
+  .home-text {
+    margin-right: 0;
+    text-align: center;
+    padding: 0 10px;
+  }
+}
